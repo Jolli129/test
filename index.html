@@ -2,14 +2,31 @@
 <html>
 <head>
     <title>Hello World - Build With Ionos</title>
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-<p>
-    Hello World!
-</p>
-<p>
-    <a href="https://buildwith.ionos.com/setup?repo=https%3A%2F%2Fgithub.com%2Fbuildwith-ionos%2Fbuild-with-ionos-html-hello-world"
-       target="_blank"><img src="ship-to-ionos-button.png" alt="ship project to ionos"/></a>
-</p>
+<div class="main">
+    <h1>
+        Hello World!
+    </h1>
+    <div>
+        <a href="https://buildwith.ionos.com/setup?repo=https%3A%2F%2Fgithub.com%2Fbuildwith-ionos%2Fbuild-with-ionos-html-hello-world"
+           target="_blank">
+            <button class="button">
+                <svg class="svg"
+                     role="img"
+                     aria-hidden="true"
+                     xmlns="http://www.w3.org/2000/svg"
+                >
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="/icons.svg#icon-ship"
+                    />
+                </svg>
+                <span class="buttonText">Ship to IONOS</span>
+            </button>
+        </a>
+    </div>
+</div>
+
 </body>
 </html>
